@@ -1,0 +1,42 @@
+{
+	"name": "systeminfo",
+	"version": "1.0.0",
+	"description": "Displays system information",
+	"license": "MIT",
+	"keywords": [
+		"app",
+		"OS",
+		"systeminfo",
+		"sys",
+		"cli",
+		"cli-app",
+		"html",
+		"sysinfo"
+	],
+	"homepage": "https://github.com/shariati/systeminfo",
+	"author": "Amin Shariati",
+	"repository": "shariati/systeminfo",
+	"bin": "cli.js",
+	"files": [
+		"index.js",
+		"cli.js"
+	],
+	"engines": {
+		"node": ">=0.10.0"
+	},
+	"scripts": {
+		"test": "xo && mocha"
+	},
+	"dependencies": {
+		"ansi-regex": "^2.0.0",
+		"taketalk": "^1.0.0",
+		"ansi-styles": "^2.0.0"
+	},
+	"devDependencies": {
+		"mocha": "*",
+		"xo": "*"
+	},
+	"xo": {
+		"space": true
+	}
+}
